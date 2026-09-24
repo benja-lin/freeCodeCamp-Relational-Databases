@@ -1,7 +1,7 @@
 #!/bin/bash
 #displays element properties
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
-SILLY="I could not find that element in the database"
+SILLY="I could not find that element in the database."
 if [[ ! $1 ]]
 then
   echo "Please provide an element as an argument."
